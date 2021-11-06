@@ -1,5 +1,5 @@
 class Solution:
-    def uniquePathsIII(self, grid: List[List[int]]) -> int:
+    def uniquePathsIII(self, grid):
         # first, prepare the starting and ending points
         # simultaneously, record all the non-obstacle coordinates
         start = end = None
